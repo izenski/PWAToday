@@ -24,10 +24,134 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-                    <h1>Using PWA Today</h1>
+                <section><h1>Mobile vs Web</h1></section>
+                <section>
+                    <h3>87% time spent on native</h3>
+                    <ul>
+                        <li>Works offline</li>
+                        <li>Performant</li>
+                        <li>Home Screen</li>
+                        <li>Engaging (push)</li>
+                        <li>Features</li>
+                    </ul>
                 </section>
-				<section>Slide 2</section>
+                <section>
+                    <blockquote>53% of users 
+                        abandon sites that take longer than 3 seconds to load<br/>
+                        https://www.thinkwithgoogle.com/intl/en-154/insights-inspiration/research-data/need-mobile-speed-how-mobile-latency-impacts-publisher-revenue/
+                    </blockquote>
+                </section>
+                <section>
+                    <h2>HTTPS</h2>
+                    <ul>
+                        <li>Trust</li>
+                        <li>Basically MitM attack</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Fetch</h2>
+                    <h2>What about post?</h2>
+                    <code><pre>
+                        fetch(url, {
+                            method: "POST",
+                            headers: {
+                                "Content-Type":"application/json",
+                                "Accept":"Application/json"
+                            },
+                            body: JSON.stringify({
+                                username: userName,
+                                message: userMsg
+                            })
+                        })
+                    </pre></code>
+                    <div>Can't store post result in cache?</div>
+                </section>
+                <section>
+                    <h2>Where can I run a PWA?</h2>
+                </section>
+                <section>
+                    <img src="img/caniuse-pwa.jpg"/>
+                </section>
+                <section>
+                    <h2>HTTPS</h2>
+                </section>
+                <section>
+                    <img src="img/caniuse-https.jpg"/>
+                    <div>https://www.caniuse.com/#feat=tls1-2</div>
+                </section>
+                <section>
+                    <h2>Web App Manifest</h2>
+                </section>
+                <section>
+                    <img src="img/caniuse-webappmanifest.jpg"/>
+                    <div>https://www.caniuse.com/#feat=web-app-manifest</div>
+                </section>
+                <section>
+                    <h2>ServiceWorker</h2>
+                </section>
+                <section>
+                    <img src="img/caniuse-serviceworker.jpg" />
+                    <div>https://www.caniuse.com/#feat=serviceworkers</div>
+                </section>
+                <section>
+                    <img src="img/caniuse-promises.jpg" />
+                    <div>https://www.caniuse.com/#feat=promises</div>
+                </section>
+                <section>
+                    <img src="img/caniuse-fetch.jpg" />
+                    <div>https://www.caniuse.com/#feat=fetch</div>
+                </section>
+                <section>
+                    <img src="img/caniuse-indexeddb.jpg" />
+                    <div>https://www.caniuse.com/#feat=indexeddb</div>
+                </section>
+                <section>
+                    <img src="img/caniuse-pushapi.jpg" />
+                    <div>https://www.caniuse.com/#feat=push-api</div>
+                </section>
+                <section>
+                    <img src="img/caniuse-backgroundsyncapi.jpg" />
+                    <div>https://www.caniuse.com/#feat=background-sync</div>
+                </section>
+
+
+
+                <section>
+                    <h2>Start with</h2>
+                    <ul>
+                        <li>Existing app</li>
+                        <li>Greenfield app</li>
+                        <li>Lite version of app</li>
+                        <li>PWA Feature focus</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1>Cache</h1>
+                </section>
+                <section>
+                    <h2>IndexedDb</h2>
+                    <p>https://github.com/jakearchibald/idb</p>
+                </section>
+                <section>
+                    <h2>Cache clean-up</h2>
+                </section>
+                <section>
+                    <div>
+                        What about window.navigator.share
+                    </div>
+                </section>
+                <section>
+                    <h2>Firefox</h2>
+                    <div>about:debugging#workers</div>
+                </section>
+				<section>
+                    <h1>Links</h1>
+                    <ul>
+                        <li>https://youtu.be/6fb-t9ffDvo</li>
+                        <li>https://www.thinkwithgoogle.com/intl/en-154/insights-inspiration/research-data/need-mobile-speed-how-mobile-latency-impacts-publisher-revenue/</li>
+
+                    </ul>
+                </section>
 			</div>
 		</div>
 
