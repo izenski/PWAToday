@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="66.145836mm"
+   height="66.145836mm"
+   viewBox="0 0 66.145836 66.145836"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="AppStore new logo.svg">
+  <title
+     id="title907">AppStore new logo</title>
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient899">
+      <stop
+         style="stop-color:#1d72f1;stop-opacity:1"
+         offset="0"
+         id="stop895" />
+      <stop
+         style="stop-color:#1ac7fb;stop-opacity:1"
+         offset="1"
+         id="stop897" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient899"
+       id="linearGradient901"
+       x1="-25.272568"
+       y1="207.52057"
+       x2="-25.272568"
+       y2="152.9982"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="88.039819"
+     inkscape:cy="114.42009"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-object-midpoints="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-intersection-paths="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>AppStore new logo</dc:title>
+        <dc:date>02/04/2018</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Apple, Inc.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>CMetalCore</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:source>https://iphone-mania.jp/wp-content/uploads/2017/09/app-store-128x128_2x.png</dc:source>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(59.483067,-145.8456)">
+    <g
+       id="g905"
+       transform="matrix(0.98209275,0,0,0.98209275,-1.0651782,3.7961838)">
+      <rect
+         ry="14.833459"
+         rx="14.833459"
+         y="144.63951"
+         x="-59.483067"
+         height="67.351921"
+         width="67.351921"
+         id="rect826"
+         style="opacity:1;fill:url(#linearGradient901);fill-opacity:1;stroke:none;stroke-width:1.3607142;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+      <path
+         sodipodi:nodetypes="cccccccccccsccccccccccccccccsccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path869"
+         d="m -29.719788,157.09105 c -0.489641,0.0132 -0.983567,0.1457 -1.439188,0.40876 -1.457989,0.84175 -1.954353,2.69318 -1.112594,4.15116 l 3.054077,5.2896 -9.720852,16.8367 h -8.147306 c -1.035371,0.0956 -1.91728,0.70542 -2.387968,1.57406 -0.233371,0.43066 -0.365363,0.92445 -0.365353,1.45056 -1e-5,1.68353 1.355043,3.03908 3.038573,3.03909 h 27.524935 c 0.799086,-1.67779 0.408397,-3.66946 -1.180807,-5.03586 -0.534815,-0.45983 -1.114994,-1.02785 -1.811258,-1.02785 h -9.669176 l 12.774929,-22.1263 c 0.841767,-1.45798 0.34539,-3.3094 -1.112594,-4.15116 -0.45562,-0.26306 -0.949544,-0.39554 -1.439187,-0.40876 -0.987611,-0.0267 -1.956478,0.43219 -2.55695,1.28105 l -1.446424,2.50476 -1.445908,-2.50476 c -0.600467,-0.84886 -1.569339,-1.30776 -2.556949,-1.28105 z m 8.516794,11.60394 c -0.564636,0.19652 -1.106021,0.70256 -1.547193,1.53066 -1.10164,2.06774 -1.172011,5.3424 -0.205671,7.56129 l 11.820982,20.47368 c 0.89847,1.26854 2.6215529,1.66407 3.9956215,0.87075 1.4579811,-0.84176 1.9538367,-2.69317 1.1120781,-4.15117 l -2.9672624,-5.13922 h 4.4674287 c 1.5478204,-0.14383 2.7517698,-1.43849 2.7517698,-3.02513 0,-1.68354 -1.3555503,-3.03857 -3.0390914,-3.03858 h -7.6806693 z m -20.443713,22.26066 c -0.522108,2e-5 -1.044099,0.0657 -1.548744,0.19585 l -2.210718,3.8287 c -0.841767,1.45799 -0.345906,3.30941 1.112078,4.15117 1.374063,0.79332 3.097149,0.39779 3.995621,-0.87075 l 3.072164,-5.32112 c -0.177781,-0.21711 -0.376369,-0.42565 -0.602548,-0.62011 -1.057601,-0.90932 -2.437649,-1.36383 -3.817853,-1.36374 z"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.30218017;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+    </g>
+  </g>
+</svg>

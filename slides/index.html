@@ -55,7 +55,7 @@
                 <section>
                     <ul>
                         <li>How many Smart Phones world-wide?</li>
-                        <li class="fragment">What OS?</li>
+                        <li class="fragment">Per OS?</li>
                         <li class="fragment">How many PCs world-wide?</li>
                         <li class="fragment">What OS?</li>
                     </ul>
@@ -76,8 +76,8 @@
                     <div style="font-size:10em">?</div>
                 </section>                
                 <section>
-                    <h3>87% time spent on native</h3>
-                    <ul>
+                    <h3>87% time spent on mobile apps - Why?</h3>
+                    <ul class="fragment">
                         <li>Reliable</li>
                         <li>Performant</li>
                         <li>Easy (Home Screen)</li>
@@ -95,6 +95,33 @@
                 </section>
                 <section>
                     <img src="img/OldPhoneProgramming.jpg" />
+                </section>
+                <section>
+                    <img src="img/Warning.svg" class="saneimage"/>
+                </section>
+                <section>
+                        <table><tbody>
+                            <tr>
+                                <td><img src="img/AppStore_new_logo.svg" /></td>
+                                <td style="position:relative;">
+                                    <div class="fragment" style="position:absolute;top:3em;bottom:0;left:0;right:0">
+                                        2,000,000
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/Google_Play_symbol.svg" /></td>
+                                <td style="position:relative;">
+                                    <div class="fragment" style="position:absolute;top:1.5em;bottom:0;left:0;right:0">
+                                        3,800,000
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    <cite>https://www.statista.com/statistics/276623/number-of-apps-available-in-leading-app-stores/</cite>
+                </section>
+                <section>
+                    <img src="img/simplewaves.jpg" />
                 </section>
                 <section>
                     <ul>
@@ -217,6 +244,15 @@
                     <img src="img/ServiceWorkerLifecycle.jpg" />
                 </section>
                 <section>
+                    <pre><code class="large">
+            const x = "Hello Example";
+                    </code></pre>
+                </section>
+                <section>
+                    <img src="img/pwabuilder.serviceworker.jpg" />
+                    <div>https://www.pwabuilder.com/serviceworker</div>
+                </section>
+                <section>
                     <img src="img/caniuse-serviceworker.jpg"/>
                     <cite>https://caniuse.com/#feat=serviceworkers</cite>
                 </section> 
@@ -234,7 +270,21 @@
                     <img src="img/caniuse-fetch.jpg" />
                     <div>https://www.caniuse.com/#feat=fetch</div>
                 </section>                
-
+                <section>
+                        <pre><code>
+            fetch(url, {
+                method: "POST",
+                headers: {
+                    "Content-Type":"application/json",
+                    "Accept":"Application/json"
+                },
+                body: JSON.stringify({
+                    username: userName,
+                    message: userMsg
+                })
+            })
+                        </code></pre>
+                    </section>
                 <section>
                     <i class="far fa-book fa-10x"></i>
                 </section>
@@ -263,26 +313,14 @@
                 </section> 
 
                 <section>
-                    <img src="img/caniuse-webappmanifest.jpg"/>
+                  <img src="img/pwabuilder.imagegenerator.jpg" />
+                  <div>https://www.pwabuilder.com/imageGenerator</div>  
                 </section>
 
                 <section>
-                    <h2>What about REST?</h2>
-                    <pre><code>
-        fetch(url, {
-            method: "POST",
-            headers: {
-                "Content-Type":"application/json",
-                "Accept":"Application/json"
-            },
-            body: JSON.stringify({
-                username: userName,
-                message: userMsg
-            })
-        })
-                    </code></pre>
-                    <div>Can't store post result in cache?</div>
+                    <img src="img/caniuse-webappmanifest.jpg"/>
                 </section>
+
                 <section>
                     <img src="img/IndexedDB.png"/>
                 </section>
