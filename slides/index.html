@@ -29,18 +29,24 @@
                     <img src="img/PWALogo.png" 
                         style="background-color:#FFF"
                     />
+                    <aside class="notes">
+                        <ul>
+                            <li>Progressive Web Apps</li>
+                            <li>Advantages of Native (incl) Mobile & Web</li>
+                        </ul>                        
+                    </aside>                              
                 </section>
                 <section>
                     <img src="img/computer.svg"
                         class="saneimage"
                     />
                 </section>
-                <section>
+                <!-- <section>
                     <img src="img/suitcase.svg"
                         class="saneimage"
 
                     />
-                </section>
+                </section> -->
                 <section><h1>Mobile vs Web</h1></section>
                 <section>
                     <img src="img/earth.svg" 
@@ -55,9 +61,9 @@
                 <section>
                     <ul>
                         <li>How many Smart Phones world-wide?</li>
-                        <li class="fragment">Per OS?</li>
+                        <!-- <li class="fragment">Per OS?</li> -->
                         <li class="fragment">How many PCs world-wide?</li>
-                        <li class="fragment">What OS?</li>
+                        <!-- <li class="fragment">What OS?</li> -->
                     </ul>
                 </section>
                 <section>
@@ -105,7 +111,7 @@
                                 <td><img src="img/AppStore_new_logo.svg" /></td>
                                 <td style="position:relative;">
                                     <div class="fragment" style="position:absolute;top:3em;bottom:0;left:0;right:0">
-                                        2,000,000
+                                        3,000,000
                                     </div>
                                 </td>
                             </tr>
@@ -113,12 +119,13 @@
                                 <td><img src="img/Google_Play_symbol.svg"/></td>
                                 <td style="position:relative;">
                                     <div class="fragment" style="position:absolute;top:3em;bottom:0;left:0;right:0">
-                                        3,800,000
+                                        2,700,000
                                     </div>
                                 </td>
                             </tr>
                         </tbody></table>
-                    <cite>https://www.statista.com/statistics/276623/number-of-apps-available-in-leading-app-stores/</cite>
+                    <cite>https://www.statista.com/statistics/266210/number-of-available-applications-in-the-google-play-store/</cite>
+                    <cite>https://www.statista.com/statistics/268251/number-of-apps-in-the-itunes-app-store-since-2008/</cite>
                 </section>
                 <section>
                     <img src="img/simplewaves.jpg" />
@@ -209,9 +216,68 @@
                         <li>App Manifest</li>
                         <li>Served over HTTPS</li>
                     </ol>
-                </section>  
+                </section>
                 <section>
-                    <i class="fa fa-cog fa-10x"></i>
+                    <i class="far fa-book fa-10x"></i>
+                </section>
+                
+                <section>
+                    <h2>Web App Manifest</h2>
+                    <blockquote>The manifest informs details for websites installed on the homescreen of a device, providing users with quicker access and a richer experience</blockquote>
+                    <cite>https://developer.mozilla.org/en-US/docs/Web/Manifest</cite>
+                </section> 
+
+                <section>
+                        <pre><code class="large">
+    &lt;link rel="manifest" href="/manifest.json"&gt;
+                            </code></pre>   
+                    <aside class="notes">
+                        <ul>
+                            <li>name must be manifest.json</li>
+                            <li>Should be added to every page</li>
+                            <li>Ensures manifest is loaded</li>
+                        </ul>                        
+                    </aside>                                           
+                </section>     
+                <section>                        
+                <pre><code class="large">
+    {
+        "name": "RotationConf the Total Original...",
+        "short_name": "RotationConf",
+        "start_url": "/index.html",
+        "scope": ".",
+        "display": "standalone",
+        "orientation": "portrait-primary",
+                    </code></pre> 
+                    <aside class="notes">
+                        <ul>
+                            <li>Name - splash screen</li>
+                            <li>Short name - below icon</li>
+                            <li>Scope - what pages are included?</li>
+                            <li>..."." means "all"</li>
+                            <li>Display: standalone,fullscreen,minimal-ui,browser</li>
+                            <li>bg color, theme color, description </li>
+                            <li>dir:ltr - left to right</li>
+                        </ul>                        
+                    </aside>                                       
+                </section> 
+
+                <section>
+                  <img src="img/pwabuilder.imagegenerator.jpg" />
+                  <div>https://www.pwabuilder.com/imageGenerator</div>  
+                </section>
+
+                <section>
+                    <img src="img/caniuse-webappmanifest.jpg"/>
+                    <div>https://www.caniuse.com/#feat=web-app-manifest</div>
+                </section>  
+                
+                <pre><code class="large">
+                    const x = "Hello Example";
+                            </code></pre>                
+                
+                <section>
+                    <i class="fa fa-scroll fa-10x"></i>
                 </section>  
                 <section>
                     <blockquote>Service worker is a programmable network proxy, allowing you to control how network requests from your page are handled.</blockquote>
@@ -283,43 +349,9 @@
                     message: userMsg
                 })
             })
-                        </code></pre>
-                    </section>
-                <section>
-                    <i class="far fa-book fa-10x"></i>
-                </section>
-                
-                <section>
-                    <h2>Web App Manifest</h2>
-                    <blockquote>The manifest informs details for websites installed on the homescreen of a device, providing users with quicker access and a richer experience</blockquote>
-                    <cite>https://developer.mozilla.org/en-US/docs/Web/Manifest</cite>
-                </section> 
-
-                <section>
-                        <pre><code class="large">
-    &lt;link rel="manifest" href="/manifest.json"&gt;
-                            </code></pre>                
-                </section>     
-                <section>                        
-                <pre><code class="large">
-    {
-        "name": "RotationConf the Total Original...",
-        "short_name": "RotationConf",
-        "start_url": "/index.html",
-        "scope": ".",
-        "display": "standalone",
-        "orientation": "portrait-primary",
-                    </code></pre>                
-                </section> 
-
-                <section>
-                  <img src="img/pwabuilder.imagegenerator.jpg" />
-                  <div>https://www.pwabuilder.com/imageGenerator</div>  
+                        </code></pre>                  
                 </section>
 
-                <section>
-                    <img src="img/caniuse-webappmanifest.jpg"/>
-                </section>
 
                 <section>
                     <img src="img/IndexedDB.png"/>
