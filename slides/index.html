@@ -307,78 +307,7 @@
                     <img src="img/pwa-lighthouse.png" />
                     <cite>https://developers.google.com/web/tools/lighthouse</cite>
                 </section>
-                <section>
-                    <i class="far fa-book fa-10x"></i>
-                </section>
-                
-                <section>
-                    <h2>Web App Manifest</h2>
-                    <blockquote>The manifest informs details for websites installed on the homescreen of a device, providing users with quicker access and a richer experience</blockquote>
-                    <cite>https://developer.mozilla.org/en-US/docs/Web/Manifest</cite>
-                    <aside class="notes">
-                        <ul>
-                            <li>The kind of metadata needed to install an app</li>
-                        </ul> 
-                    </aside>                      
-                </section> 
 
-                <section>
-                        <pre><code class="large">
-    &lt;link rel="manifest" href="/manifest.json"&gt;
-                            </code></pre>   
-                    <aside class="notes">
-                        <ul>
-                            <li>name must be manifest.json</li>
-                            <li>Should be added to every page</li>
-                            <li>Ensures manifest is loaded</li>
-                        </ul>                        
-                    </aside>                                           
-                </section>     
-                <section>                        
-                <pre><code class="large">
-    {
-        "name": "RotationConf the Total Original...",
-        "short_name": "RotationConf",
-        "start_url": "/index.html",
-        "scope": ".",
-        "display": "standalone",
-        "orientation": "portrait-primary",
-                    </code></pre> 
-                    <aside class="notes">
-                        <ul>
-                            <li>Name - splash screen</li>
-                            <li>Short name - below icon</li>
-                            <li>Scope - what pages are included?</li>
-                            <li>..."." means "all"</li>
-                            <li>Display: standalone,fullscreen,minimal-ui,browser</li>
-                            <li>bg color, theme color, description </li>
-                            <li>dir:ltr - left to right</li>
-                        </ul>                        
-                    </aside>                                       
-                </section> 
-
-                <section>
-                    <pre><code class="large">
-            const x = "PWABuilder Example";
-                    </code></pre> 
-                    <aside class="notes">
-                        <ul>
-                            <li>https://www.pwabuilder.com/</li>
-                            <li>Should be added to every page</li>
-                            <li>Ensures manifest is loaded</li>
-                        </ul>                        
-                    </aside>                                      
-                </section>
-
-                <section>
-                  <img src="img/pwabuilder.imagegenerator.jpg" />
-                  <div>https://www.pwabuilder.com/</div>  
-                </section>
-
-                <section>
-                    <img src="img/caniuse-webappmanifest.jpg"/>
-                    <div>https://www.caniuse.com/#feat=web-app-manifest</div>
-                </section>  
                 <section>
                     <i class="fas fa-cog fa-10x"></i>
                 </section>  
@@ -420,7 +349,7 @@
                 </section>
                 <section>
                     <pre><code class="large">
-            // A Tale of Two JavaScript files
+            // A Tale of Three JavaScript files
             const x = "Hello Example";
                     </code></pre>
                     <aside class="notes">
@@ -503,6 +432,79 @@
                     </ul>                        
                 </aside>                      
                 </section> 
+
+                <section>
+                    <i class="far fa-book fa-10x"></i>
+                </section>
+                
+                <section>
+                    <h2>Web App Manifest</h2>
+                    <blockquote>The manifest informs details for websites installed on the homescreen of a device, providing users with quicker access and a richer experience</blockquote>
+                    <cite>https://developer.mozilla.org/en-US/docs/Web/Manifest</cite>
+                    <aside class="notes">
+                        <ul>
+                            <li>The kind of metadata needed to install an app</li>
+                        </ul> 
+                    </aside>                      
+                </section> 
+
+                <section>
+                        <pre><code class="large">
+    &lt;link rel="manifest" href="/manifest.json"&gt;
+                            </code></pre>   
+                    <aside class="notes">
+                        <ul>
+                            <li>name must be manifest.json</li>
+                            <li>Should be added to every page</li>
+                            <li>Ensures manifest is loaded</li>
+                        </ul>                        
+                    </aside>                                           
+                </section>     
+                <section>                        
+                <pre><code class="large">
+    {
+        "name": "RotationConf the Total Original...",
+        "short_name": "RotationConf",
+        "start_url": "/index.html",
+        "scope": ".",
+        "display": "standalone",
+        "orientation": "portrait-primary",
+                    </code></pre> 
+                    <aside class="notes">
+                        <ul>
+                            <li>Name - splash screen</li>
+                            <li>Short name - below icon</li>
+                            <li>Scope - what pages are included?</li>
+                            <li>..."." means "all"</li>
+                            <li>Display: standalone,fullscreen,minimal-ui,browser</li>
+                            <li>bg color, theme color, description </li>
+                            <li>dir:ltr - left to right</li>
+                        </ul>                        
+                    </aside>                                       
+                </section> 
+
+                <section>
+                    <pre><code class="large">
+            const x = "PWABuilder Example";
+                    </code></pre> 
+                    <aside class="notes">
+                        <ul>
+                            <li>https://www.pwabuilder.com/</li>
+                            <li>Should be added to every page</li>
+                            <li>Ensures manifest is loaded</li>
+                        </ul>                        
+                    </aside>                                      
+                </section>
+
+                <section>
+                  <img src="img/pwabuilder.imagegenerator.jpg" />
+                  <div>https://www.pwabuilder.com/</div>  
+                </section>
+
+                <section>
+                    <img src="img/caniuse-webappmanifest.jpg"/>
+                    <div>https://www.caniuse.com/#feat=web-app-manifest</div>
+                </section>                  
                 
                 <section>
                     <i class="far fa-cloud-download-alt fa-10x"></i>
